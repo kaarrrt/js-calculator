@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1 align="center">Mini JavaScript Application</h1>
+    <marquee behavior="" direction="">First JS App</marquee>
+    <div class="main" align="center"> 
+        <label class="op1-label">Operand-1:</label>
+        <input type="number" name="operand1" id="op1">
+        <label class="op2-label">Operand-2:</label>
+        <input type="number" name="operand2" id="op2">
+        <label class="result-label">Result:</label>
+        <input type="text" name="result" id="result">
+        <br>
+        <br>
+        <input type="button" value="+" id="add" onclick="calculate(this.id)">
+        <input type="button" value="-" id="sub" onclick="calculate(this.id)">
+        <input type="button" value="*" id="mul" onclick="calculate(this.id)">
+        <input type="button" value="/" id="div" onclick="calculate(this.id)">
+        <button class="reset" style="margin:10px;">Reset</button>
+    </div>
+
+</body>
+<script type="text/javascript" src="../js/index.js">
+</script>
+</html>

@@ -1,0 +1,14 @@
+h1{
+    color: aqua;
+}
+label{
+    color:blueviolet;
+    padding: 10px;
+}
+input{
+    color:white;
+    background-color: blueviolet;
+}
+marquee{
+    color:blue;
+}
